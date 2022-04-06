@@ -7,12 +7,19 @@
 # return value: the number's ASCII character (https://www.ascii-code.com/)
 # hint: use Integer#chr
 
+def ascii_translator(number)
+  number.chr
+end
+
 
 # method name: #common_sports
 # parameters: current_sports and favorite_sports (both arrays)
 # return value: an array containing items in both arrays
 # hint: use Array#intersection
 
+def common_sports(arr1, arr2)
+  arr1.intersection(arr2)
+end
 
 # method name: #alphabetical_list
 # parameter: games (an array)
